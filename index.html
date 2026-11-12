@@ -129,9 +129,11 @@
             color: var(--white);
         }
 
-        .logo i {
-            font-size: 1.8rem;
-            color: var(--gold-primary);
+        /* CORREÇÃO DO TAMANHO DA LOGO: Substituído de .logo image para .logo img */
+        .logo img {
+            height: 52px;
+            width: auto;
+            object-fit: contain;
         }
 
         .logo-text {
@@ -942,7 +944,7 @@
     <header class="header">
         <div class="container header-container">
             <a href="#" class="logo">
-                <i class="fa-solid fa-scale-balanced"></i>
+                <img src="logo.jpeg" class="logo" alt="">
                 <div class="logo-text">
                     <span class="logo-title">DRA. FERNANDA MARVILA</span>
                     <span class="logo-subtitle">ADVOCACIA & CONSULTORIA JURÍDICA</span>
